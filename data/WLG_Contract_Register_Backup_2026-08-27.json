@@ -1,0 +1,43 @@
+{
+ "contracts": [
+  {
+   "id": "6c2e292314",
+   "contractId": "WLA-001",
+   "name": "Absa",
+   "entity": "WLA",
+   "relatedParty": "No",
+   "type": "Intermediary Agreement",
+   "counterparty": "Absa",
+   "start": "2024-04-04",
+   "startRaw": "2024-04-04",
+   "end": null,
+   "endRaw": "No date",
+   "noticeDays": "60",
+   "renewalDate": "2024-11-01",
+   "autoRenew": "Yes",
+   "termination": "60-day notice required",
+   "payment": "Monthly",
+   "value": "12000",
+   "paAuth": "",
+   "annualRenewal": "",
+   "signed": "",
+   "owner": "Betty Masemula",
+   "notes": "Review contract Q4 Ongoing Supplier",
+   "docLink": "",
+   "archived": false,
+   "dq": [
+    "end:narrative:No date"
+   ],
+   "history": [
+    {
+     "ts": "2026-08-26T14:11:10.488Z",
+     "user": "Unidentified user",
+     "action": "Amended",
+     "field": "owner",
+     "detail": ""John Doe" → "Betty Masemula""
+    }
+   ]
+  }
+ ],
+ "created": "2026-08-26T13:45:29.104Z"
+}
