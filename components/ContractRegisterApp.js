@@ -1,16 +1,13 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-
-const SEED_CONTRACTS = require('@/data/contracts.json')
+import { SEED_CONTRACTS } from '@/lib/contractData'
 
 export default function ContractRegisterApp() {
   const [db, setDb] = useState(null)
   const [view, setView] = useState('dash')
   const [filters, setFilters] = useState({ q: '', entity: '', type: '', status: '', rp: '', owner: '' })
   const [sort, setSort] = useState({ k: 'daysLeft', d: 1 })
-  const [editingId, setEditingId] = useState(null)
-  const [editingData, setEditingData] = useState(null)
 
   // Load data on mount
   useEffect(() => {
@@ -38,7 +35,7 @@ export default function ContractRegisterApp() {
     setDb(data)
   }, [])
 
-  if (!db) return <div>Loading...</div>
+  if (!db) return <div style={{padding: '20px'}}>Loading...</div>
 
   return (
     <>
